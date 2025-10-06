@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Théo Simonet — Prof éco‑droit & web designer</title>
-  <meta name="description" content="À propos, projets et contacts en un coup d’œil. Prof d’économie‑droit & web designer." />
+  <title>hithubfr — Développeur & Portfolio</title>
+  <meta name="description" content="Portfolio professionnel et projets. Développement web et solutions techniques." />
   <meta name="color-scheme" content="light dark" />
-  <meta property="og:title" content="Théo Simonet — Prof éco‑droit & web designer" />
-  <meta property="og:description" content="Link‑in‑bio technique et minimal : à propos, projets, contact." />
+  <meta property="og:title" content="hithubfr — Développeur & Portfolio" />
+  <meta property="og:description" content="Portfolio professionnel : projets, compétences et contact." />
   <meta property="og:type" content="website" />
   <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)">
   <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
@@ -74,21 +74,21 @@
   <div class="wrap grid">
     <header class="row hero">
       <div class="avatar card" aria-hidden="true">
-        <img src="https://via.placeholder.com/192" alt="Photo de Théo Simonet">
+        <img src="https://via.placeholder.com/192" alt="Photo de profil">
       </div>
       <div class="id">
-        <h1>Théo Simonet <span aria-hidden="true">·</span> Prof éco‑droit & web designer</h1>
-        <p class="tagline">Comprendre qui je suis en un coup d’œil. Clair, fiable, orienté résultat.</p>
+        <h1>hithubfr <span aria-hidden="true">·</span> Développeur Web</h1>
+        <p class="tagline">Portfolio professionnel : projets, compétences et informations de contact.</p>
         <div class="badges">
-          <span class="badge">Péda & pragmatique</span>
-          <span class="badge">Sécurité by default</span>
-          <span class="badge">Réponse rapide</span>
+          <span class="badge">Développement Web</span>
+          <span class="badge">Solutions techniques</span>
+          <span class="badge">Open Source</span>
         </div>
       </div>
       <div class="cta">
         <a class="btn btn-primary" href="#" id="cta">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 3c4.97 0 9 3.358 9 7.5S16.97 18 12 18a10.7 10.7 0 0 1-2.85-.38L4 21l.9-4.2C3.73 15.53 3 14.08 3 12.5 3 6.358 7.03 3 12 3z"/></svg>
-          <span>Discuter avec moi</span>
+          <span>Me contacter</span>
         </a>
       </div>
     </header>
@@ -99,8 +99,8 @@
     <section class="card about">
       <h2>À propos</h2>
       <p>
-        Prof d’économie‑droit (Éducation nationale) et designer web. J’aide à clarifier une idée,
-        poser une stratégie simple, puis livrer un produit qui marche — en mettant la sécurité et la lisibilité en premier.
+        Développeur web passionné par les technologies modernes et les solutions innovantes.
+        Création d'applications web performantes avec une attention particulière à la qualité du code et à l'expérience utilisateur.
       </p>
       <div class="chips" style="margin-top:12px">
         <span class="chip">Stack : JS/TS • Node • React</span>
@@ -113,17 +113,17 @@
 
     <section class="card about">
       <h2>Contact</h2>
-      <p>Besoin d’un dev/enseignant qui va droit au but ? On se parle.</p>
+      <p>Vous avez un projet ou une question ? N'hésitez pas à me contacter.</p>
       <div class="row" style="gap:10px;flex-wrap:wrap;margin-top:8px">
         <a class="btn" href="#" id="mailto">Email</a>
         <a class="btn" href="#" id="whatsapp" target="_blank" rel="noopener">WhatsApp</a>
         <a class="btn" href="#" id="telegram" target="_blank" rel="noopener">Telegram</a>
       </div>
-      <p class="tagline" style="margin-top:8px">Je réponds généralement sous 24 h ouvrées.</p>
+      <p class="tagline" style="margin-top:8px">Réponse rapide garantie.</p>
     </section>
 
     <footer class="row" role="contentinfo">
-      <span>© <span id="y"></span> Théo Simonet — Tous droits réservés.</span>
+      <span>© <span id="y"></span> hithubfr — Tous droits réservés.</span>
       <span style="margin-left:auto">HTML‑CSS‑JS single‑file. Hébergeable sur GitHub Pages.</span>
     </footer>
   </div>
@@ -132,7 +132,7 @@
     /* === CONFIG REMPLIE AVEC TES LIENS === */
     const LINKS = {
       github: "https://github.com/hithubfr",
-      linkedin: "https://www.linkedin.com/in/theosimonet/",
+      linkedin: "",
       portfolio: "",
       calendly: "",
       youtube: "",
@@ -145,12 +145,12 @@
 
     // Contact — email anti‑scraping + messageries (remplis pour activer)
     const CONTACT = {
-      user: "contact",          // ex: "hello"
-      domain: "exemple.com",    // ex: "theo.dev"
+      user: "contact",
+      domain: "hithubfr.github.io",
       whatsapp: "",
       telegram: ""
     };
-    const subject = encodeURIComponent("Discuter avec moi");
+    const subject = encodeURIComponent("Contact depuis le portfolio");
 
     /* === RENDU === */
     const ICONS = {
